@@ -36,7 +36,3 @@ git rebase master - to rebase the master in the another branch
 git reflog - uses to see the history of the commits over time.
 git reset --hard <commit-id> - it used to revert back to the particular commit id
 git reset --hard HEAD@{number} - it used to revert back to the number of steps backward to a commit id
-
-
-
-
