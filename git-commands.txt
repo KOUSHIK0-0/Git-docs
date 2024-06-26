@@ -1,0 +1,42 @@
+git --version - checking the version of the git in the computer.
+repository , repo - it is nothing but the folders
+git status - to check the status of the folder
+git config --list - to list the user details
+git config --global user.email "your-email@example.com" - to give the email id.
+git config --global user.name "Your Name" - to give the username.
+git init -  to create the git repository/folder/directory, at this point te tracking starts..
+dir - to list the files in the folder
+git add <f1> <f2> - adding the files into the staging area from working directory
+git add . - adding all files into the staging area from working directory
+git commit -m "message" - commiting the files from stagging area to local repository
+git log - to see the history of git commits
+git log --oneline - to see the messages of the commits
+.gitignore file - the contents in the file cannot be tracked by the git.
+if the folders empty , then git doesnot track, but to keep folder empty we have to use gitkeep file init, at that time it will track
+git show -s -pretty=raw <commit-id> - to show the commit information of the commit id
+git ls-tree <tree-id> - to show the blob files in the tree object
+git show <blob-id> - to show the commit message of the blob file
+git branch - to show the current branch
+git branch <name> - to create the new branch
+git switch <name> - to switch to the another branch
+git checkout <name> - same as switch
+git merge <branch-name> - it merges with the master branch
+git diff <commit_id1> <commit_id2> - it shows the difference between the two commits
+git diff --staged - it shows the difference between the last commiy and the version in the stagging area
+git stash - it is a temporary location, it is used to jump to different branches without commiting the work in the current branch, it is a stack memory
+git stash list - to see the list of work in the stash
+git stash apply - to get the work from the stash
+git stash apply stash@{index} - to get the particular stash
+git stash pop - to get the work and remove from the list
+git stash drop - to drop from the list
+git stash apply stash@{index} <branch_name> - to apply the stash in different branch
+git stash clear - to clear the stash list
+git stash save "work in progress on X feature" - to give some name to stash
+git rebase master - to rebase the master in the another branch
+git reflog - uses to see the history of the commits over time.
+git reset --hard <commit-id> - it used to revert back to the particular commit id
+git reset --hard HEAD@{number} - it used to revert back to the number of steps backward to a commit id
+
+
+
+
