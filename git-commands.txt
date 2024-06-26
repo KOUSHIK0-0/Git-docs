@@ -38,3 +38,4 @@ git reset --hard <commit-id> - it used to revert back to the particular commit i
 git reset --hard HEAD@{number} - it used to revert back to the number of steps backward to a commit id
 git remote add origin @localrepo
 git push -u origin main
+git clone @remote-repo
